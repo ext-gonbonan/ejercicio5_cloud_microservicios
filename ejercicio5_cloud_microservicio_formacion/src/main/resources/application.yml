@@ -15,3 +15,4 @@ logging:
   level:
     '[org.springframework.cloud.config]': DEBUG
     '[org.springframework.boot.autoconfigure.jdbc]': DEBUG
+    '[org.springframework.boot.web.embedded.tomcat]': DEBUG

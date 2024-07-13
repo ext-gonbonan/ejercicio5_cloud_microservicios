@@ -16,7 +16,9 @@ public class FormacionServiceImpl implements FormacionService{
 	@Autowired
 	private RestClient restClient; // cliente HTTP para realizar peticiones REST
 
-	private String url = "http://localhost:8090/cursos"; // URL base para las peticiones HTTP
+	//private String url = "http://localhost:8090/cursos"; // URL base para las peticiones HTTP
+	// acceso a través de Eureka a otro microservicio
+    private String url = "http://05-servicio-cursos/";
 	
 	@Override
     public List<Formacion> obtenerFormaciones() {
