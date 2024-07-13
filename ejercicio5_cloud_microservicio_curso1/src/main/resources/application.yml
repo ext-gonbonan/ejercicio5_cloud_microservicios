@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: 05-servicio-cursos-inst1
+  cloud:
+    config:
+      #uri: http://localhost:8888  # Localización Spring Cloud Config
+      fail-fast: true
+      #allow-override: false
+      #override-none: true
+  config:
+    import:
+    - "optional:configserver:http://localhost:8888"
+
+logging:
+  level:
+    '[org.springframework.cloud.config]': DEBUG
+    '[org.springframework.boot.autoconfigure.jdbc]': DEBUG
