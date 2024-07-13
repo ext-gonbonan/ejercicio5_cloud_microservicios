@@ -17,3 +17,9 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 server:
   port: 8081
+
+# Configuración Spring Doc
+springdoc:
+  packages-to-scan: com.formacion.controller
+  paths-to-match: /**
+# La ruta Swagger: http://localhost:9000/swagger-ui/index.html
