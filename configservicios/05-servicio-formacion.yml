@@ -7,7 +7,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
 server:
-  port: 9000
+  port: 8001
 
 # Configuración Spring Doc
 springdoc:
