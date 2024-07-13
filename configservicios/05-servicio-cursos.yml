@@ -1,1 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/cursosbd?serverTimezone=UTC
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+      naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  devtools:
+    restart:
+      enabled: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
 
+# Al tener 3 instancias de este microservico no establecemos aqui el parametro port
+#server:
+  #port: 8081
+
+# Configuración Spring Doc
+springdoc:
+  packages-to-scan: com.formacion.controller
+  paths-to-match: /**
+# La ruta Swagger: http://localhost:9000/swagger-ui/index.html
