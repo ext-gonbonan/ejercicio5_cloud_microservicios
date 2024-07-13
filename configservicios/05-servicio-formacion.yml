@@ -9,7 +9,7 @@ eureka:
 
 # Asiganmos un puerto de forma aleatoria
 server:
-  port: 5000
+  port: 0
 
 # Configuración Spring Doc
 springdoc:
