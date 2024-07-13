@@ -1,6 +1,6 @@
 spring:
   application:
-    name: 05-servicio-cursos-inst3
+    name: 05-servicio-cursos
   cloud:
     config:
       #uri: http://localhost:8888  # Localización Spring Cloud Config

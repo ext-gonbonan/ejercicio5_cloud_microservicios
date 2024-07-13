@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ext-gonbonan/ejercicio5_cloud_microservicios
-          default-label: main
+          uri: https://github.com/ext-gonbonan/ejercicio5_cloud_microservicios/configservicios
+          default-label: master
 
   devtools:
     restart:
