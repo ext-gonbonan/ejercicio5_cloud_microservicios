@@ -13,5 +13,5 @@ server:
 
 # Configuración Spring Doc
 springdoc:
-  packages-to-scan: com.formacion.controller
+  packages-to-scan: com.curso.controller
   paths-to-match: /**
