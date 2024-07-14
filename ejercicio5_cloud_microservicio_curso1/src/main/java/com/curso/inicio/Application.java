@@ -13,6 +13,7 @@ import com.curso.dao.CursoDao;
 import com.curso.model.Curso;
 
 // Curso 1
+//@EnableDiscoveryClient
 @EntityScan(basePackages = {"com.curso.model"})
 @EnableJpaRepositories(basePackages = {"com.curso.dao"})
 @SpringBootApplication(scanBasePackages = {"com.curso.controller","com.curso.service", "com.curso.inicio"})

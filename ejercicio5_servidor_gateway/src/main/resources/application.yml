@@ -14,14 +14,14 @@ spring:
             allowCredentials: true
       routes:
         - id: servCursos
-          uri: lb://ejercicio5-servicio-cursos
+          uri: lb://05-servicio-cursos
           predicates:
             - Path=/scursos/**
           filters:
             - RewritePath=/scursos/*, / # sustituye '/scursos/' por /
 
         - id: servFormacion
-          uri: lb://ejercicio5-servicio-formacion
+          uri: lb://05-servicio-formacion
           predicates:
             - Path=/sformacion/**
           filters:
@@ -57,7 +57,6 @@ logging:
     #'[org.springframework.http]': TRACE
 
 
-  pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  #pattern:
+    #console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
 
-# OK!!

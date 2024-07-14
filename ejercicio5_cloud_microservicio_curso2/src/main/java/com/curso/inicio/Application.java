@@ -6,6 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
@@ -13,6 +14,7 @@ import com.curso.dao.CursoDao;
 import com.curso.model.Curso;
 
 // Curso 2
+@EnableDiscoveryClient
 @EntityScan(basePackages = {"com.curso.model"})
 @EnableJpaRepositories(basePackages = {"com.curso.dao"})
 @SpringBootApplication(scanBasePackages = {"com.curso.controller","com.curso.service", "com.curso.inicio"})

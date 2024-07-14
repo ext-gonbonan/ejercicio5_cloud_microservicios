@@ -12,7 +12,7 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-# nos seguramos de que Eureka registre correctamente la instancia con el puerto asignado (al tener 3 instancias del microservicio curso)
+# nos seguramos de que Eureka registre correctamente la instancia con el puerto asignado (al tener varias instancias del microservicio curso)
   instance:
     instance-id: ${spring.application.name}:${random.value}
-    prefer-ip-address: true
+    #prefer-ip-address: false
