@@ -7,6 +7,10 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
 
+    # mejoras adicionales
+    register-with-eureka: true
+    fetch-registry: true
+
 # Asiganmos un puerto de forma aleatoria
 server:
   port: 0
