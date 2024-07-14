@@ -42,3 +42,7 @@ Esta configuración es necesaria para manejar correctamente las solicitudes CORS
 - Spring Boot
 - Spring Cloud Gateway
 - Spring Cloud Netflix Eureka Client
+
+
+## Notas sobre CORS
+La implementación de CORS en el Gateway resuelve problemas comunes con solicitudes de preflight OPTIONS y asegura que las peticiones desde diferentes orígenes (como aplicaciones frontend) sean manejadas correctamente. Esta configuración es más robusta que la configuración YAML y se aplica de manera consistente en todos los escenarios.
