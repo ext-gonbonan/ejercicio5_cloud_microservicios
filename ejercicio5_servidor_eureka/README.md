@@ -1,4 +1,4 @@
-# Servidor Eureka
+# Ejercicio 5: Microservicio Servidor Eureka
 
 Este proyecto implementa un servidor de descubrimiento Eureka para nuestra arquitectura de microservicios.
 
