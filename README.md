@@ -62,13 +62,16 @@ Este sistema se puede probar utilizando Postman. A continuación, se muestran al
 ### Endpoints de Prueba
 
 1. Probar el servicio de Formación:
+   
    GET http://localhost:9000/sformacion/formacion/test
    Este endpoint verifica si el servicio de formación está funcionando correctamente.
 
 2. Obtener todas las formaciones:
+   
   GET http://localhost:9000/sformacion/formacion
   Retorna la lista de todas las formaciones disponibles.
 
 3. Obtener todos los cursos:
+   
   GET http://localhost:9000/scursos/cursos
   Retorna la lista de todos los cursos disponibles.
