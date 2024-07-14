@@ -46,3 +46,6 @@ Esta configuración es necesaria para manejar correctamente las solicitudes CORS
 
 ## Notas sobre CORS
 La implementación de CORS en el Gateway resuelve problemas comunes con solicitudes de preflight OPTIONS y asegura que las peticiones desde diferentes orígenes (como aplicaciones frontend) sean manejadas correctamente. Esta configuración es más robusta que la configuración YAML y se aplica de manera consistente en todos los escenarios.
+
+![imagen](https://github.com/user-attachments/assets/322a3278-072d-4ace-a4a6-cbbb428531ca)
+
