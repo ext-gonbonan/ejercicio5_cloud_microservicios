@@ -42,8 +42,7 @@ El sistema está compuesto por los siguientes componentes:
 - Spring Cloud Netflix (Eureka)
 - Spring Cloud Config
 - Spring Cloud Gateway
-- Spring Data JPA (para persistencia)
-- Base de datos MySQL
+
 
 ## Configuración y Despliegue
 
